@@ -22,8 +22,7 @@ import { type User } from './user.model';
 
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [],
+  standalone: false,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
